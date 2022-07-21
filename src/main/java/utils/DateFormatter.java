@@ -12,6 +12,11 @@ import static java.time.LocalDate.now;
 public class DateFormatter {
 
   private static Map<String, String> months = new HashMap<String, String>() {{
+    put("января", "01");
+    put("февраля", "02");
+    put("марта", "03");
+    put("апреля", "04");
+    put("мая", "05");
     put("июня", "06");
     put("июля", "07");
     put("августа", "08");
@@ -19,11 +24,6 @@ public class DateFormatter {
     put("октября", "10");
     put("ноября", "11");
     put("декабря", "12");
-    put("января", "01");
-    put("февраля", "02");
-    put("марта", "03");
-    put("апреля", "04");
-    put("мая", "05");
   }};
 
   public static Date getDateFromString(String string) {

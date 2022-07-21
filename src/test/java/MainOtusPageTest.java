@@ -18,7 +18,7 @@ public class MainOtusPageTest {
         mainPage.open();
         CourseComponent cards = new CourseComponent(driver);
         cards.getEarliestCourse()
-                .actionsClickOnCard();
+                .clickOnCard();
     }
 
     @Test
