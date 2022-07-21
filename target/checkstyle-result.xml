@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="D:\JAVA\firsthw\src\main\java\annotations\Driver.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\annotations\URL.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\components\AnyComponentAbs.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\components\CourseComponent.java">
+<error line="12" severity="error" message="Import statement for &apos;org.assertj.core.api.Assertions.assertThat&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="error" message="Import statement for &apos;utils.DateFormatter.getDateFromString&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\driver\DriverFactory.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\driver\IDriverFactory.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\driver\impl\ChromeWebDriver.java">
+<error line="26" severity="error" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 27." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\driver\impl\FirefoxWebDriver.java">
+<error line="24" severity="error" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 25." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\driver\impl\IDriver.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\driver\impl\OperaWebDriver.java">
+<error line="21" severity="error" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 22." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\exceptions\DriverTypeNotSupported.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\extensions\UIExtension.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\listeners\MouseListener.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\pages\AnyPageAbs.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\pages\CoursePage.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\pages\MainPage.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\utils\DateFormatter.java">
+<error line="10" severity="error" message="Import statement for &apos;java.time.LocalDate.now&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" severity="error" message="&apos;block&apos; child has incorrect indentation level 4, expected level should be one of the following: 6, 8, 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" severity="error" message="&apos;block rcurly&apos; has incorrect indentation level 2, expected level should be one of the following: 4, 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\waiters\IWaiter.java">
+</file>
+<file name="D:\JAVA\firsthw\src\main\java\waiters\StandardWaiter.java">
+</file>
+<file name="D:\JAVA\firsthw\src\test\java\MainOtusPageTest.java">
+</file>
+</checkstyle>
