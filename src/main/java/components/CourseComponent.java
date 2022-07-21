@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.CoursePage;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -80,7 +81,6 @@ public class CourseComponent extends AnyComponentAbs<CourseComponent> {
                 .reduce((a, b) -> getDate(a).before(getDate(b)) ? a : b)
                 .orElse(null);
         return this;
-
     }
 
     /**
@@ -92,7 +92,6 @@ public class CourseComponent extends AnyComponentAbs<CourseComponent> {
                 .reduce((a, b) -> getDate(a).after(getDate(b)) ? a : b)
                 .orElse(null);
         return this;
-
     }
 
     /**
