@@ -1,2 +1,2 @@
 Запуск тестов:
-  `mvn test -Dbrowser=CHROME`
+  `mvn test -Dbrowser=CHROME -Dkeywords=QA`
