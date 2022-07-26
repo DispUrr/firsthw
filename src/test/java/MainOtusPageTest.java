@@ -37,11 +37,12 @@ public class MainOtusPageTest {
         mainPage.open();
         CourseComponent cards = new CourseComponent(driver);
         String keywords = System.getProperty("keywords");
+//        String keywords = "QA";
         ArrayList<String> courseListResult = cards.findCourseByKeywords(keywords);
         if (0 == courseListResult.size()) {
-            System.out.println("По Вашему запросу не найдено ни одного курса.");
+            System.out.println("No courses were found for your request.");
         } else {
-            System.out.println("По вашему запросу найдены курсы:" + courseListResult);
+            System.out.println("Following courses:" + courseListResult);
         }
     }
 

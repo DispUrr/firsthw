@@ -5,7 +5,7 @@ import pages.AnyPageAbs;
 
 import java.util.function.BiFunction;
 
-public class AnyComponentAbs<T> extends AnyPageAbs<T> {
+public abstract class AnyComponentAbs<T> extends AnyPageAbs<T> {
 
   public AnyComponentAbs(WebDriver driver) {
     super(driver);

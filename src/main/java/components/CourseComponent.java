@@ -74,21 +74,6 @@ public class CourseComponent extends AnyComponentAbs<CourseComponent> {
     /**
      * Выбираем курс по ключевому слову
      */
-    public void filterCourse(String keyword) {
-        List<String> arrayOfCourse = new ArrayList<String>();
-        int countOfCourses = driver.findElements(By.xpath("//div[contains(concat(' ',@class,' '),' lessons__new-item-title ')]")).size();
-        List<WebElement> allCourses = driver.findElements(By.xpath("//div[contains(concat(' ',@class,' '),' lessons__new-item-title ')]"));
-        int count = 0;
-        for (int i = 0; i < allCourses.size() - 1; i++) { //logger.info(allCourses.get(i).getText()); //Записываем в лог все курсы
-            arrayOfCourse.add(i, allCourses.get(i).getText());
-            if (arrayOfCourse.get(i).contains(keyword)) {
-                log.info(arrayOfCourse.get(i));
-                count++;
-            }
-        }
-        log.info("Найдено курсов, содержащих в названии текст " + keyword + ": " + count);
-    }
-
     public ArrayList<String> findCourseByKeywords(String keywords) {
         ArrayList<String> listCoursesByKeywords = (ArrayList<String>) coursesList.stream()
                 .map(WebElement::getText)
